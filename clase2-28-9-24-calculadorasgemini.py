@@ -1,63 +1,9 @@
-#Ejercicio 4 Utilizando IA (GEMINI)
-# En gemini/chatgpt/copilot escribir: necesito una calculadora en python puedes darme el código?  pero lo mas sencillo posible sin utilizar librerias
-""" Para hacer comentarios en bloque (muchas lineas)
-    Tengo que abrir y cerrar tres veces las comillas dobles
-"""
-"""
-
-def sumar(x, y):
-  """#Esta función suma dos números"""
- # return x + y
-
-#def restar(x, y):
-  """ #Esta función resta dos números"""
-  #return x - y
-
-#def multiplicar(x, y):
-  """Esta función multiplica dos números"""
- # return x * y
-
-#def dividir(x, y):
-  """Esta función divide dos números"""
-  #if y == 0:
-   # return "No se puede dividir entre cero"
-  #else:
-   # return x / y
-#while True:
-  #print("Selecciona la operación:")
-  #print("1. Sumar")
-  #print("2. Restar")
-  #print("3. Multiplicar")
-  #print("4. Dividir")
-  #print("5. Salir")
-
-  #opcion = input("Ingresa una opción (1/2/3/4/5): ")
-
-  #if opcion in ('1', '2', '3', '4'):
-    #try:
-     # num1 = float(input("Ingresa el primer número: "))
-      #num2 = float(input("Ingresa el segundo número: "))
-    #except ValueError:
-      #print("Entrada inválida. Por favor, ingresa un número.")
-      #continue
-
-    #if opcion == '1':
-     # print(num1, "+", num2, "=", sumar(num1, num2))
-
-   # elif opcion == '2':
-    #  print(num1, "-", num2, "=", restar(num1, num2))
-
-    #elif opcion == '3':
-     # print(num1, "*", num2, "=", multiplicar(num1, num2))
-
-   # elif opcion == '4':
-    #  print(num1, "/", num2, "=", dividir(num1, num2))
-
-  #elif opcion == '5':
-  #  break
-  #else:
-   # print("Opción inválida. Por favor, ingresa una opción válida.")
-   import tkinter as tk
+#Para convertirlo en un archivo ejecutable:
+#  pip install pyinstaller
+ # Luego, navega a la carpeta donde guardaste el archivo Python en tu terminal y ejecuta el siguiente comando:Bash
+#pyinstaller --onefile --windowed tu_archivo.py
+#  pip install tkinter
+import tkinter as tk
 from tkinter import ttk
 
 def button_click(number):
