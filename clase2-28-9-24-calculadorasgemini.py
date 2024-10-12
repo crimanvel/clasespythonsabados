@@ -3,8 +3,18 @@
  # Luego, navega a la carpeta donde guardaste el archivo Python en tu terminal y ejecuta el siguiente comando:Bash
 #pyinstaller --onefile --windowed tu_archivo.py
 #  pip install tkinter
+
+
+
+#Librerias: extensiones que tiene el lenguaje, dentro de ellas hay operaciones que la versión base
+#de python no trae.
+
+
 import tkinter as tk
 from tkinter import ttk
+
+
+#funciones: subprogramas
 
 def button_click(number):
     current = entry.get()
